@@ -1,23 +1,19 @@
-# Music Plus — Windows releases
+# Music Plus — Windows downloads
 
-Public binary downloads only. Source is maintained privately.
+Public binaries only. Source is maintained privately.
 
-[Download 0.9.4](packages/MusicPlus-0.9.4-compact-windows-x64.zip)
+[Download Music Plus 1.0.0 — bản kiểm chứng](packages/MusicPlus-1.0.0-compact-windows-x64.zip)
 
-Exit the old app completely, extract the complete ZIP and overwrite your app folder.
-Do not delete %LOCALAPPDATA%\MusicPlus8; it holds your local account/settings/cache.
-From 0.9.1: Settings > Check for updates downloads/verifies a newer ZIP and restarts.
-No login/token is needed for updates. No background update process.
+[Thay đổi và giới hạn 1.0.0](CHANGELOG-1.0.0.md) · [SHA-256](packages/MusicPlus-1.0.0-compact-windows-x64.zip.sha256)
 
-0.9.1: select/copy text; underline artist/album on hover; on-demand updater; playlist
-selection reuses loaded Library; optimistic removal restores on server error.
-Audio transfer avoids WPF dispatch per chunk. Speed improvement not measured on a live account.
-Windows UI/install helper/live login/audio have not been tested in the Linux build environment.
+Thoát hẳn app kể cả khay hệ thống, giải nén **toàn bộ ZIP**, chép đè vào thư mục app cũ.
+Không xoá `%LOCALAPPDATA%\MusicPlus8`: dữ liệu đăng nhập, settings, metadata/cache được giữ ở đó.
+Nên sao lưu thư mục dữ liệu trên chính máy trước khi thử. Máy/tài khoản Windows khác phải đăng nhập riêng.
+Cần .NET Framework 4.8 và WebView2 Runtime.
 
-0.9.2: selectable text colors corrected; full artist song-list endpoint with pagination;
-album tracks exclude recommendations; Settings is now an in-app overlay with X and border pulse.
+1.0.0 bỏ cơ chế tự thay file bằng PowerShell chưa được kiểm chứng. Settings chỉ kiểm tra,
+tải và kiểm ZIP để bạn cập nhật thủ công. Không thêm dịch vụ/browser chạy nền.
+Build/portable checks đạt; Windows live login/audio, UI, update/rollback và RAM/latency
+còn phải kiểm chứng. Vì vậy stable manifest vẫn trỏ 0.9.4, chưa tự đẩy bản 1.0.0 tới mọi máy.
 
-0.9.3: Album/Plays semantics and K/M/B numeric sorting fixed. Playing artist is selectable;
-triple click selects whole text, single-artist hover underline, no hover notes or playing-title background.
-
-[Full 0.9.4 change list](CHANGELOG-0.9.4.md)
+[Download 0.9.4](packages/MusicPlus-0.9.4-compact-windows-x64.zip) · [Changelog 0.9.4](CHANGELOG-0.9.4.md)
