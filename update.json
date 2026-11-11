@@ -1,5 +1,6 @@
 {
-  "version": "0.9.4.0",
-  "url": "https://raw.githubusercontent.com/minhhoang140800/MusicPlus-Releases/main/packages/MusicPlus-0.9.4-compact-windows-x64.zip",
-  "sha256": "9d05966e810bf16d95b57e6c58f9505ff1cba23ffa6c0d8407af6b525c42e283"
+  "version": "1.0.2.0",
+  "layout": "versioned-v1",
+  "url": "https://raw.githubusercontent.com/minhhoang140800/MusicPlus-Releases/main/packages/MusicPlus-1.0.2-compact-windows-x64.zip",
+  "sha256": "c03ef230bfd23bc0a6ef1725f90c7dc93e18bac5525e5f28b193fc60b8c98926"
 }
