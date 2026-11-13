@@ -1,6 +1,6 @@
 # Music Plus — Windows downloads
 
-[Download Music Plus 1.0.4](packages/MusicPlus-1.0.4-compact-windows-x64.zip) · [Thay đổi](CHANGELOG-1.0.4.md) · [SHA-256](packages/MusicPlus-1.0.4-compact-windows-x64.zip.sha256)
+[Download Music Plus 1.0.5](packages/MusicPlus-1.0.5-compact-windows-x64.zip) · [Thay đổi](CHANGELOG-1.0.5.md) · [SHA-256](packages/MusicPlus-1.0.5-compact-windows-x64.zip.sha256)
 
 Cần .NET Framework 4.8 và WebView2 Runtime. Source nằm trong GitHub private.
 
