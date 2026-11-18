@@ -1,6 +1,6 @@
 # Music Plus — Windows downloads
 
-[Download Music Plus 1.0.9](packages/MusicPlus-1.0.9-compact-windows-x64.zip) · [Thay đổi](CHANGELOG-1.0.9.md) · [SHA-256](packages/MusicPlus-1.0.9-compact-windows-x64.zip.sha256)
+[Download Music Plus 1.0.10](packages/MusicPlus-1.0.10-compact-windows-x64.zip) · [Thay đổi](CHANGELOG-1.0.10.md) · [SHA-256](packages/MusicPlus-1.0.10-compact-windows-x64.zip.sha256)
 
 Cần .NET Framework 4.8 và WebView2 Runtime. Source nằm trong GitHub private.
 
@@ -13,9 +13,9 @@ Không cần GitHub token, không có updater thường trực. Mỗi bản ở 
 bản mới thất bại, launcher mở lại bản trước. **Clear unused cache** dọn cache thừa và bản cũ,
 giữ dữ liệu cá nhân và một bản để rollback. Các bản <=1.0.1 cần cài ZIP này một lần vì đổi layout.
 
-186 portable checks, 186 net48 checks, 17 Windows smoke checks và 4 native decoder vectors đạt.
-Premium itag 141 tải toàn bài và phát WPF trên Windows thành công; người dùng đã xác nhận app chạy được.
-Chưa kiểm chứng trọn vòng restart/update WPF; xem changelog về giới hạn còn lại.
+186 portable checks, 186 net48 checks, 26 Windows checks và 4 native decoder vectors đạt.
+1.0.10 kiểm chứng phím WPF/native và 4 lệnh SMTC thật trên Windows. Phần playback Premium
+đã được xác nhận ở 1.0.9 và được giữ nguyên. Xem changelog về phạm vi kiểm thử và giới hạn còn lại.
 
 ## Nếu bản cũ báo Access denied khi update
 
